@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fique Rico</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>💰 Fique Rico Simulator</h1>
+<p>Anos: </p>
+<p id="ano">0</p>
+</header>
+
+<section class="money">
+<h2>Seu dinheiro:</h2>
+<span id="money">500</span>
+<h2>Sua reputação</h2>
+<span id="status">0</span>
+</section>
+
+<section class="log">
+    <h2>Atividades</h2>
+    <div id="log"></div>
+</section>
+
+<section class="actions">
+
+<h2>Formas de ganhar dinheiro</h2>
+
+<div class="job">
+<h3>💻 Freelance</h3>
+<p>Ganhe dinheiro fazendo sites e edições.</p>
+<button onclick="freelance()">Trabalhar</button>
+</div>
+
+<div class="job">
+<h3>🏍️ Motoboy</h3>
+<p>Faça entregas pela cidade.</p>
+<button onclick="motoboy()">Fazer entrega</button>
+</div>
+
+<div class="job">
+<h3>📱 Redes Sociais</h3>
+<p>Produza conteúdo.</p>
+<button onclick="redes()">Postar conteúdo</button>
+</div>
+
+</section>
+
+<h2>Loja</h2>
+
+<section class="actions">
+
+<div class="job">
+<h3>Compre uma moto nivel</h3>
+<h3 id="nm">1</h3>
+<p>Compre uma moto e aumente a reputação</p>
+<p id="mp">Valor = 1000</p>
+<button onclick="motoLoja()">Comprar</button>
+</div>
+
+<div class="job">
+<h3>Compre um carro nivel</h3>
+<h3 id="nc">1</h3>
+<p>Compre um carro e aumente a reputação</p>
+<p id="cp">Valor = 2500</p>
+<button onclick="carroLoja()">Comprar</button>
+</div>
+
+<div class="job">
+    <h3>Compre um celular nivel 1</h3>
+    <p>Compre um celular para aumentar sua reputação</p>
+    <p>Valor = 900</p>
+    <button onclick="cll1()">Comprar</button>
+</div>
+
+<section class="actions">
+    <h2>Arrume um emprego</h2>
+    <div class="job">
+        <h3>Trabalhe como garçom</h3>
+        <p>E ganhe 7 dinheiros por segundo</p>
+        <button onclick="graçom()">Trabalhar</button>
+    </div>
+</section>
+
+</section>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
